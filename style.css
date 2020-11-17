@@ -85,7 +85,9 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
