@@ -67,12 +67,6 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 * {font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
-.h1 {
-  font-weight: bold;
-  font-size: large;
-  color: #76323F
-}
-
 .header {
   text-align: right;
   font-weight: bold;
