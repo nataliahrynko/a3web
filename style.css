@@ -53,3 +53,8 @@ div.aligncenter {
     display: block;
     margin: 5px auto 5px auto;
 }
+
+/* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
+
+* {font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
