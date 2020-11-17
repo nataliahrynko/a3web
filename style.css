@@ -53,7 +53,6 @@ div.aligncenter {
     display: block;
     margin: 5px auto 5px auto;
 }
-<<<<<<< HEAD
 /*Responsive Navigation Bar/*/
 .topnav {
   overflow: hidden;
@@ -105,10 +104,8 @@ div.aligncenter {
     text-align: left;
   }
 }
-=======
 
 /* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
 
 * {font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
->>>>>>> b4fbf7dea13cf89e3f12631719b0eb136421a449
