@@ -58,3 +58,9 @@ div.aligncenter {
 
 * {font-family: "Century Gothic, CenturyGothic, AppleGothic, sans-serif";
 }
+
+.mainheader {
+  font-weight: bold;
+  font-size: large;
+  color: #76323F
+}
