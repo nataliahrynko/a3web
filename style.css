@@ -44,7 +44,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 
 .topnav a.active {
   background-color: #C09F80;
-  color: white;
+  color: black;
 }
 
 .topnav .icon {
