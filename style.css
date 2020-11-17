@@ -1,6 +1,7 @@
 /* CSS file for Group 4 website.
 Last modified __________ */
 
+
 /* Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
 body {
 background-color:#D7CEC7;
@@ -19,7 +20,8 @@ div.aligncenter {
     display: block;
     margin: 5px auto 5px auto;
 }
-/*Responsive Navigation Bar/*/
+/*Responsive Navigation Bar
+Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -70,6 +72,7 @@ div.aligncenter {
     text-align: left;
   }
 }
+/*End Nav Bar/*/
 
 /* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
 
