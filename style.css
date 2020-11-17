@@ -24,13 +24,13 @@ div.aligncenter {
 Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #565656;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #565656;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,8 +43,8 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #C09F80;
+  color: black;
 }
 
 .topnav .icon {
