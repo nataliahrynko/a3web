@@ -76,7 +76,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 
 /* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
 
-* {font-family: "Century Gothic, CenturyGothic, AppleGothic, sans-serif";
+* {font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
 .h1 {
