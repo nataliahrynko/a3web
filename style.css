@@ -29,7 +29,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
   font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav a:hover, .dropdown:hover .dropbtn .dropdown-content a:hover {
   background-color: white;
   color: black;
 }
@@ -41,6 +41,47 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 
 .topnav .icon {
   display: none;
+}
+
+/* Dropdown Element of Navbar
+Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #565656;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
@@ -61,6 +102,13 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
   .topnav.responsive a {
     float: none;
     display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
     text-align: left;
   }
 }
