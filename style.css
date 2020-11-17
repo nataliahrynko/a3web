@@ -30,7 +30,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 .topnav a {
   float: left;
   display: block;
-  color: #565656;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,13 +38,13 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 .topnav a.active {
   background-color: #C09F80;
-  color: black;
+  color: white;
 }
 
 .topnav .icon {
