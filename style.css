@@ -1,6 +1,10 @@
 /* CSS file for Group 4 website.
 Last modified __________ */
 
+/* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
+
+* {font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
 
 /* Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
 body {
@@ -62,10 +66,6 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 }
 /*End Nav Bar/*/
 
-/* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
-
-* {font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
 
 .header {
   text-align: right;
