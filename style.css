@@ -139,7 +139,7 @@ inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 /* responsive imagery*/
 
 .logo {
-  max-width: 75%;
+  width: 50%;
   height: auto;
   float: left
 }
