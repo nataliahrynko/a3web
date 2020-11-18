@@ -149,6 +149,11 @@ inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
   color: #76323F;
 }
 
+.p1 {
+  font-size: small;
+  color: black;
+}
+
 .hr {
   border-top: 2px #C09F80;
 }
