@@ -136,13 +136,13 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 
 /* responsive imagery*/
 
-@media screen and (max-width: 1400px){
-  .header-logo img {
-      width: 96px;
-      height: 47px;
-      float: left;
-      padding: 2px
-  }
+
+.header-logo img {
+  width: 96px;
+  height: 47px;
+  float: left;
+  padding: 2px
+}
 
 .h2 {
   font-size: medium;
