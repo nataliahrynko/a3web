@@ -135,13 +135,15 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
   margin:auto;
 }
 
-/* responsive imagery*/
+/* responsive imagery https://cocobasic.ticksy.com/article/10484/ */
 
+@media screen and (max-width: 1020px){
 .header-logo img {
   width: 96px;
   height: 47px;
   float: left;
   padding: 2px
+}
 }
 
 .h2 {
