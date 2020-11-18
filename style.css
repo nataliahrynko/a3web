@@ -11,9 +11,9 @@ body {
 background-color:#D7CEC7;
 }
 
-
 /*Responsive Navigation Bar
 Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
+/* Main Navbar Owner: Riley Sweeney */
 .topnav {
   overflow: hidden;
   background-color: #565656;
@@ -45,6 +45,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
 
 /* Dropdown Element of Navbar
 Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+/* Dropdown Element Owner: Sonya Shuster */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -116,7 +117,6 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 }
 /*End Nav Bar/*/
 
-
 .header {
   text-align: right;
   font-weight: bold;
@@ -129,14 +129,10 @@ inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 
 /*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design */
 
-
-
 .text {
   text-align:center;
   padding:1% 15% 1%; 
 }
-
-
 
 /* responsive imagery*/
 
