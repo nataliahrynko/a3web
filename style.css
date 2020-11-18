@@ -140,6 +140,8 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
   .header-logo img {
       width: 96px;
       height: 47px;
+      float: left;
+      padding: 2px
   }
 
 .h2 {
