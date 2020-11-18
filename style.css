@@ -118,7 +118,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 /*End Nav Bar/*/
 
 .header {
-  text-align: right;
+  text-align: left;
   font-size: large;
   color: #76323F;
   vertical-align: center;
