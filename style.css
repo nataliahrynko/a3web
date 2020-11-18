@@ -143,7 +143,8 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 .logo {
   width: 192;
   height: 94;
-  float: left
+  float: left;
+  margin-left: 1px;
 }
 
 .h2 {
