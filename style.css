@@ -128,12 +128,14 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 /*paragraph structuring to keep centre, 
 inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 
-/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design */
+/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design
+and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 
 .text {
   text-align:center;
   max-width: 1000px;
   padding-top: 2%; 
+  margin: 0 auto;
 }
 
 /* responsive imagery*/
