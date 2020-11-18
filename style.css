@@ -120,6 +120,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
   text-align: right;
   font-size: large;
   color: #76323F;
+  vertical-align: center;
   }
   
 /*paragraph structuring to keep centre, 
