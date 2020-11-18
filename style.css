@@ -132,8 +132,8 @@ inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 
 
 .text {
-  text-align:center,
-  margin-right:
+  text-align:center;
+  padding:5% 15% 5%; 
 }
 
 
