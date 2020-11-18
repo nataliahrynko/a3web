@@ -127,11 +127,21 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 /*paragraph structuring to keep centre, 
 inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 
-.alignnone {
-  margin: 5px 15px 15px 0;
+/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design */
+
+
+
+.text {
+  text-align:center,
+  margin-right:
 }
 
-.aligncenter {
-  display: block;
-  margin: 5px auto 5px auto;
+
+
+/* responsive imagery*/
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  float: left
 }
