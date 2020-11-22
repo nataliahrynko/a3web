@@ -193,7 +193,7 @@ Owner : Riley Sweeney
 Date : November 22, 2020
 src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 /*/ 
-.container {
+.container-fluid {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
