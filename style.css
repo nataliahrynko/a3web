@@ -227,12 +227,12 @@ src : https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   background-color: #76323F;
-  margin-left: 730px;
   margin-top: 50px;
+  width: 100%;
 }
 /* End Owner : RIley Sweeney /*/
