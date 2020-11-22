@@ -68,13 +68,12 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
   position: relative;
   background-color: #565656;
   min-width: 160px;
-  /* margin: 16px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none; /* makes the dropdown be vertical */
+  float: none;
   display: block;
   color: white;
   text-align: left;
@@ -186,6 +185,7 @@ Date : November 22, 2020
   width: 25%;
   height: auto;
   border-radius: 40%;
+  display: inline;
 }
 /* End Owner : RIley Sweeney /*/
 
@@ -210,13 +210,7 @@ src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
   margin-left: -15px;
 }
 
-.col-sm-4 {
-	position: relative;
-	width: 100%;
-	padding-right: 15px;
-  padding-left: 15px;
-}
 h3 {
-  
+  display: inline;
 }
 /* End Owner : RIley Sweeney /*/
