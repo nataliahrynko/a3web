@@ -27,16 +27,27 @@ https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stack
    </div>
   </div>
 
+<!-- -----------------
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+------------------- -->
 <div class="topnav" id="myTopnav">
-  <a href="index.html">The Mission</a>
+  <a href="index.html" class="active">The Mission</a>
   <a href="about.html">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
   
-  <!-- <a href="contact.html">Contact</a> -->
-  <!-- dropdown source: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp --> 
+  <!-- --------------
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+  ----------------- -->
   <div class="dropdown">
-    <button class="dropbtn" class="active">Services
-        <i class="fa fa-caret-down"></i>
-    </button>
+    <button class="dropbtn" class="active">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
     <div class="dropdown-content">
         <a href="services.html#collection">Data Collection</a>
         <a href="services.html#cartographic">Cartographic</a>
@@ -44,10 +55,19 @@ https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stack
         <a href="services.html#programming">Web Design/Programming</a>
     </div>
    </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<!-- End Owner: Riley Sweeney -->
+<!----------------------------------------
+NavBar Javascript
+Owner : Riley Sweeney
+Date : Nov 19
+From : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+----------------------------------------------->
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -58,6 +78,7 @@ function myFunction() {
   }
 }
 </script>
+<!--End Owner: Riley Sweeney-->
 
   <div class= "container">
     <div class = "text">

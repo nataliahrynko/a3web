@@ -27,27 +27,41 @@ https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stack
    </div>
   </div>
 
+<!-- -----------------
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+------------------- -->
 <div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">The Mission</a>
-  <a href="about.html">The Team</a>
-  <a href="services.html">The Services</a>
-  <!-- <a href="contact.html">Contact</a> -->
-  <!-- dropdown source: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp --> 
+  <a href="index.html">The Mission</a>
+  <a href="about.html" class="active">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
+  
+  <!-- --------------
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+  ----------------- -->
   <div class="dropdown">
-    <button class="dropbtn"> 
-        <i class="fa fa-caret-down"></i>
-    </button>
+    <button class="dropbtn">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
     <div class="dropdown-content">
-        <a href="#collection">Data Collection</a>
-        <a href="#cartographic">Cartographic</a>
-        <a href="#analysis">Spatial Analysis</a>
-        <a href="#programming">Web Design/Programming</a>
+        <a href="services.html#collection">Data Collection</a>
+        <a href="services.html#cartographic">Cartographic</a>
+        <a href="services.html#analysis">Spatial Analysis</a>
+        <a href="services.html#programming">Web Design/Programming</a>
     </div>
    </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<!-- End Owner: Riley Sweeney -->
  <!------------------------
   Nav Bar Javascript
   Owner : RIley Sweeney
