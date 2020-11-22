@@ -175,6 +175,11 @@ Source: https://www.w3schools.com/css/css3_images.asp
 }
 /* End Owner : RIley Sweeney /*/
 
+/*
+Team Member Photo 
+Owner : Riley Sweeney
+Date : November 22, 2020
+/*/
 #TeamMember {
   max-width: 100%;
   height: auto;
@@ -184,4 +189,28 @@ Source: https://www.w3schools.com/css/css3_images.asp
 #Headshot {
   font-size: medium;
   color: black;
+}
+/* End Owner : RIley Sweeney /*/
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-sm-4 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+  padding-left: 15px;
 }
