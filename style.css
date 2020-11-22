@@ -180,15 +180,12 @@ Team Member Photo
 Owner : Riley Sweeney
 Date : November 22, 2020
 /*/
+
 #TeamMember {
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   border-radius: 40%;
-}
-
-#Headshot {
-  font-size: medium;
-  color: black;
 }
 /* End Owner : RIley Sweeney /*/
 
