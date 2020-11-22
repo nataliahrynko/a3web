@@ -183,7 +183,7 @@ Date : November 22, 2020
 /*/
 
 #TeamMember {
-  width: 100%;
+  width: 25%;
   height: auto;
   border-radius: 40%;
 }
@@ -194,7 +194,7 @@ Owner : Riley Sweeney
 Date : November 22, 2020
 src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 /*/ 
-.container {
+.container-fluid {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -215,5 +215,8 @@ src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 	width: 100%;
 	padding-right: 15px;
   padding-left: 15px;
+}
+h3 {
+  
 }
 /* End Owner : RIley Sweeney /*/
