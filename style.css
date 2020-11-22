@@ -174,3 +174,14 @@ Source: https://www.w3schools.com/css/css3_images.asp
   border-radius: 6px;
 }
 /* End Owner : RIley Sweeney /*/
+
+#TeamMember {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40%;
+}
+
+#Headshot {
+  font-size: medium;
+  color: black;
+}
