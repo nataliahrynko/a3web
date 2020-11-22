@@ -68,12 +68,13 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
   position: relative;
   background-color: #565656;
   min-width: 160px;
+  /* margin: 16px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
+  float: none; /* makes the dropdown be vertical */
   display: block;
   color: white;
   text-align: left;
