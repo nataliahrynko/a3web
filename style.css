@@ -162,4 +162,58 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 .hr.hr1 {
   border-top: #C09F80;
 }
+/*
+Team Photo 
+Owner : Riley Sweeney
+Date : November 22, 2020
+Source: https://www.w3schools.com/css/css3_images.asp
+/*/
+#Team {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+/* End Owner : RIley Sweeney /*/
 
+/*
+Team Member Photo 
+Owner : Riley Sweeney
+Date : November 22, 2020
+/*/
+
+#TeamMember {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 40%;
+}
+/* End Owner : RIley Sweeney /*/
+
+/* Team Members Photo Container
+Owner : Riley Sweeney
+Date : November 22, 2020
+src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
+/*/ 
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-sm-4 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+  padding-left: 15px;
+}
+/* End Owner : RIley Sweeney /*/
