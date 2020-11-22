@@ -28,6 +28,7 @@ owner: Natalia Hrynko-->
    </div>
   </div>
 <!-- -----------------
+- Main Part of NavBar
 - Owner : Riley Sweeney
 - Date  : Nov 19
 - From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
@@ -35,12 +36,19 @@ owner: Natalia Hrynko-->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">The Mission</a>
   <a href="about.html">The Team</a>
+  <a href="services.html">The Services</a>
   <!-- End Owner: Riley Sweeney --> 
-
+  
+  <!-- --------------
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 19
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+  ----------------- -->
   <div class="dropdown">
-    <a href="services.html" class="dropbtn">The Services
-        <!-- <i class="fa fa-caret-down"></i> -->
-    </a>
+    <button class="dropbtn">&#9660;
+      <i class="fa fa-caret-down"></i>
+  </button>
     <div class="dropdown-content">
         <a href="services.html#collection">Data Collection</a>
         <a href="services.html#cartographic">Cartographic</a>
@@ -48,10 +56,13 @@ owner: Natalia Hrynko-->
         <a href="services.html#programming">Web Design/Programming</a>
     </div>
    </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<!-- End Owner: Riley Sweeney -->
 <!----------------------------------------
 NavBar Javascript
 Owner : Riley Sweeney
