@@ -215,3 +215,22 @@ h3 {
   text-align: center;
 }
 /* End Owner : RIley Sweeney /*/
+
+/* Team Page Button
+Owner : Riley Sweeney
+Date : November 22, 2020
+src : https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
+/*/ 
+
+#Competitor {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #76323F;
+}
+/* End Owner : RIley Sweeney /*/
