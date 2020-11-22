@@ -182,10 +182,11 @@ Date : November 22, 2020
 /*/
 
 #TeamMember {
-  width: 25%;
+  width: 100%;
   height: auto;
   border-radius: 40%;
   display: inline;
+  padding-left: 20px;
 }
 /* End Owner : RIley Sweeney /*/
 
@@ -211,6 +212,6 @@ src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 }
 
 h3 {
-  display: inline;
+  text-align: center;
 }
 /* End Owner : RIley Sweeney /*/
