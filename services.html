@@ -154,6 +154,53 @@ function myFunction() {
       </div>
     </div>
     <!--End Owner : Riley Sweeney-->
+
+    <!--SLIDESHOW START
+      src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+    -->
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="images/map1.PNG" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="images/map2.PNG" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="images/map3.PNG" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/map1.PNG" style="width:100%" onclick="currentSlide(1)" alt="Grey Scale Map ArcGIS Pro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/map2.PNG" style="width:100%" onclick="currentSlide(2)" alt="Grey Scale Map MAPublisher">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/map3.PNG" style="width:100%" onclick="currentSlide(3)" alt="Census Data Population Density MAPublisher">
+        </div>
+    </div>
+  </div>
+<!--END-->
   </div>
 
   <div class= "container">
