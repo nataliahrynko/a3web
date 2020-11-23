@@ -138,6 +138,25 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
   margin:auto;
 }
 
+
+.icon img {
+  height:"10";
+  width:"10";
+  }
+  
+  
+  .row {
+   background-color: #C09F80;
+  padding:10px;
+  }
+  
+  .h4 {
+  font-size:small;
+  color:white;
+  font-weight: bold;
+  }
+  
+
 /* responsive imagery https://cocobasic.ticksy.com/article/10484/ */
 
 @media screen and (max-width: 1020px){
