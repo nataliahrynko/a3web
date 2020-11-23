@@ -255,7 +255,11 @@ Date : November 22, 2020
   padding-left: 20px;
 }
 /* End Owner : RIley Sweeney /*/
-/* Slideshow Cartography on services page START /*/
+
+/* Slideshow Cartography on services page
+Owner : riley Sweeney
+Date : November 22, 2020
+src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp /*/
 * {
   box-sizing: border-box;
 }
@@ -342,4 +346,4 @@ Date : November 22, 2020
 .demo:hover {
   opacity: 1;
 }
-/*END/*/
+/*End Owner : Riley Sweeney/*/
