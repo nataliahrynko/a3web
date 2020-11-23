@@ -178,6 +178,11 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
   color: black;
 }
 
+.p2 {
+  font-size: smaller;
+  color: white;
+  }
+
 .hr.hr1 {
   border-top: #C09F80;
 }
