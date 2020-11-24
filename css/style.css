@@ -1,14 +1,105 @@
 /* CSS file for Group 4 website.
 Last modified __________ */
 
-/* font set up for entire page https://www.cssfontstack.com/Century-Gothic */
+/* CSS Owned by Natalia Hrynko
+Last modified: Nov 23 2020 */
 
+/*Formatting*/
 
-/* Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
+/* font set up for entire page https://www.cssfontstack.com/Century-Gothic 
+Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
+
 body {
 background-color:#D7CEC7;
 font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
+
+.h2 {
+  font-size: medium;
+  color: #76323F;
+}
+
+.h4 {
+  font-size:small;
+  color:white;
+  font-weight: bold;
+  }
+  
+
+
+.p1 {
+  font-size: small;
+  color: black;
+}
+
+.p2 {
+  font-size: smaller;
+  color: white;
+  }
+
+.p3 {
+border:20%;
+color:white;
+}
+
+/*creates break line*/
+
+.hr.hr1 {
+  border-top: #C09F80;
+}
+
+/*header formatting*/
+
+.header {
+  text-align: left;
+  font-size: large;
+  color: #76323F;
+  vertical-align: center;
+  }
+
+/*general image formatting*/
+
+/* responsive imagery for header https://cocobasic.ticksy.com/article/10484/ */
+
+@media screen and (max-width: 1020px){
+.header-logo img {
+  width: 96px;
+  height: 47px;
+  float: left;
+  padding: 2px
+}
+}
+
+.icon img {
+  height:"10";
+  width:"10";
+  }
+  
+
+/*paragraph structuring to keep centre, 
+inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
+
+.text {
+  text-align:center; 
+  margin:auto;
+}
+
+/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design
+and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
+
+.col-md-4 {
+  background-color: #C09F80;
+  padding:10px;
+  }
+
+.col-md-6 {
+  background-color: #76323F;
+  padding:25px;
+  }
+
+/*End Natalia Hrynko CSS */
+
 
 /*Responsive Navigation Bar
 Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
@@ -118,74 +209,7 @@ Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdow
 }
 /*End Nav Bar/*/
 
-/*text and logo styling owner: Natalia Hrynko */
 
-.header {
-  text-align: left;
-  font-size: large;
-  color: #76323F;
-  vertical-align: center;
-  }
-  
-/*paragraph structuring to keep centre, 
-inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
-
-/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design
-and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
-
-.text {
-  text-align:center; 
-  margin:auto;
-}
-
-
-.icon img {
-  height:"10";
-  width:"10";
-  }
-  
-  
-  .row {
-   background-color: #C09F80;
-  padding:10px;
-  }
-  
-  .h4 {
-  font-size:small;
-  color:white;
-  font-weight: bold;
-  }
-  
-
-/* responsive imagery https://cocobasic.ticksy.com/article/10484/ */
-
-@media screen and (max-width: 1020px){
-.header-logo img {
-  width: 96px;
-  height: 47px;
-  float: left;
-  padding: 2px
-}
-}
-
-.h2 {
-  font-size: medium;
-  color: #76323F;
-}
-
-.p1 {
-  font-size: small;
-  color: black;
-}
-
-.p2 {
-  font-size: smaller;
-  color: white;
-  }
-
-.hr.hr1 {
-  border-top: #C09F80;
-}
 /*
 Team Photo 
 Owner : Riley Sweeney
