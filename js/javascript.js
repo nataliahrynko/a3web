@@ -40,7 +40,7 @@ Owner : Riley Sweeney
 Date : Nov 19
 From : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
 -----------------------------------------------/*/
-<script>
+
 function NavBar() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -49,5 +49,5 @@ function NavBar() {
     x.className = "topnav";
   }
 }
-</script>
+
 /* End Owner: Riley Sweeney /*/
