@@ -42,7 +42,14 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 font-size: small;
 border:20%;
 color:white;
-text-align: center;;
+text-align: center;
+}
+.p4 {
+  font-size: small;
+  border:20%;
+  color:white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /*creates break line*/
