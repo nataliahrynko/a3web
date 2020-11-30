@@ -43,13 +43,13 @@ font-size: small;
 border:20%;
 color:white;
 text-align: center;
+padding-bottom:25px;
 }
 .p4 {
   font-size: small;
   border:20%;
   color:white;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
 }
 
 /*creates break line*/
