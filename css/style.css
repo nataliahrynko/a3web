@@ -311,7 +311,7 @@ src : https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
 Owner : Riley Sweeney
 Date : November 22, 2020
 /*/
-#Cart {
+.Cart{
   width: 100%;
   max-width: 250px;
   height: auto;
