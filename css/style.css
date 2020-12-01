@@ -71,13 +71,18 @@ padding-bottom:25px;
 
 /* responsive imagery for header https://cocobasic.ticksy.com/article/10484/ */
 
-@media screen and (max-width: 1020px){
+
 .header-logo img {
-  width: 96px;
-  height: 47px;
+  width: 100%;
+  height: auto;
   float: left;
   padding: 2px
 }
+
+
+.picture img {
+  width: 100%;
+  height: auto;
 }
 
 .icon img {
