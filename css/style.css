@@ -352,7 +352,7 @@ src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp /*/
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: #76323F;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -384,7 +384,7 @@ src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp /*/
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: #76323F;
   padding: 2px 16px;
   color: white;
 }
@@ -419,3 +419,13 @@ Date: December 1, 2020 */
   background-color: #76323F;
   color: white;
 }
+/* Services Page Content
+Owner : riley Sweeney
+Date : December 1, 2020
+ /*/
+.p5 {
+  font-size: large;
+  color: #76323F;
+  text-align: center;
+}
+/*End Owner : Riley Sweeney/*/
