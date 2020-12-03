@@ -246,7 +246,7 @@ Owner : Riley Sweeney
 Date : November 22, 2020
 /*/
 
-#TeamMember {
+.TeamMember {
   width: 100%;
   max-width: 250px;
   height: auto;
