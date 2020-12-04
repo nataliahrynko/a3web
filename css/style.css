@@ -14,6 +14,11 @@ background-color:#D7CEC7;
 font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
+.h1 {
+  color:#76323F;
+  font-size: large;
+  vertical-align: auto;
+}
 
 .h2 {
   font-size: medium;
@@ -31,6 +36,8 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 .p1 {
   font-size: small;
   color: black;
+  padding-top:10px;
+padding-bottom:10px;
 }
 
 .p2 {
@@ -40,16 +47,15 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 
 .p3 {
 font-size: small;
-border:20%;
 color:white;
 text-align: center;
-padding-bottom:25px;
+padding-top:25px;
 }
 .p4 {
   font-size: small;
-  border:20%;
   color:white;
-  padding-top: 50px;
+  padding-bottom:25px;
+  font-style: italic;
 }
 
 /*creates break line*/
@@ -61,10 +67,10 @@ padding-bottom:25px;
 /*header formatting*/
 
 .header {
-  text-align: left;
-  font-size: large;
-  color: #76323F;
-  vertical-align: center;
+  text-align:left;
+  font-size:large;
+  color:#76323F;
+  vertical-align:center;
   }
 
 /*general image formatting*/
@@ -72,23 +78,18 @@ padding-bottom:25px;
 /* responsive imagery for header https://cocobasic.ticksy.com/article/10484/ */
 
 
-.header-logo img {
-  width: 100%;
+.header-logo {
+  max-width:100%;
   height: auto;
   float: left;
-  padding: 2px
+  padding:5px;
 }
 
-
-.picture img {
-  width: 100%;
+.picture {
+  max-width:100%;
   height: auto;
+  float: center;
 }
-
-.icon img {
-  height:"10";
-  width:"10";
-  }
   
 
 /*paragraph structuring to keep centre, 
@@ -105,11 +106,13 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 .col-md-4 {
   background-color: #C09F80;
   padding:10px;
+  align-items: center;
   }
 
 .col-md-6 {
   background-color: #76323F;
   padding:25px;
+  align-items: center;
   }
 .column {
   background-color: #C09F80;
