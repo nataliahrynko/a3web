@@ -14,6 +14,11 @@ background-color:#D7CEC7;
 font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
+.h1 {
+  color:#76323F;
+  font-size: large;
+  vertical-align: auto;
+}
 
 .h2 {
   font-size: medium;
@@ -62,10 +67,10 @@ padding-top:25px;
 /*header formatting*/
 
 .header {
-  text-align: left;
-  font-size: large;
+  text-align:left;
+  font-size:large;
   color:#76323F;
-  vertical-align: center;
+  vertical-align:center;
   }
 
 /*general image formatting*/
