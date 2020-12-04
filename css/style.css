@@ -31,6 +31,8 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 .p1 {
   font-size: small;
   color: black;
+  padding-top:10px;
+padding-bottom:10px;
 }
 
 .p2 {
@@ -42,12 +44,13 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 font-size: small;
 color:white;
 text-align: center;
-padding-bottom:25px;
+padding-top:25px;
 }
 .p4 {
   font-size: small;
   color:white;
-  padding-top: 50px;
+  padding-bottom:25px;
+  font-style: italic;
 }
 
 /*creates break line*/
