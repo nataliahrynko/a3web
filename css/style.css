@@ -17,7 +17,6 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 .h1 {
   color:#76323F;
   font-size: large;
-  /* vertical-align: auto; */
 }
 
 .h2 {
@@ -37,7 +36,7 @@ font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   font-size: small;
   color: black;
   padding-top:10px;
-padding-bottom:10px;
+  padding-bottom:10px;
 }
 
 .p2 {
@@ -88,7 +87,6 @@ padding-top:25px;
 .picture {
   max-width:100%;
   height: auto;
-  /* float: center; */
 }
   
 
