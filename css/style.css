@@ -110,8 +110,7 @@ and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
 .col-sm-4 {
   background-color: #C09F80;
   padding:10px;
-  align-items: center;
-  width: 33.33333333%;
+  align-items:center;
 }
 
 .col-md-4 {
