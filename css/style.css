@@ -57,6 +57,12 @@ padding-top:25px;
   font-style: italic;
 }
 
+.p6 {
+  font-size:small;
+  text-align: left;
+  padding-top: 20px;
+  color:black;
+}
 /*creates break line*/
 
 .hr.hr1 {
@@ -100,6 +106,13 @@ inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
 
 /*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design
 and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
+
+.col-sm-4 {
+  background-color: #C09F80;
+  padding:10px;
+  align-items: center;
+  width: 33.33333333%;
+}
 
 .col-md-4 {
   background-color: #C09F80;
@@ -262,10 +275,7 @@ Owner : Riley Sweeney
 Date : November 22, 2020
 src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 /*/ 
-.col-sm-4 {
-  width: 33.33333333%;
-  text-align: center;
-}
+
 .container-fluid {
 	width: 100%;
 	padding-right: 15px;
