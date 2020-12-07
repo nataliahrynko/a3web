@@ -164,6 +164,11 @@ Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
   display: none;
 }
 
+.topnav-right {
+  float: right;
+  background-color: #76323F;
+}
+
 /* Dropdown Element of Navbar
 Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 /* Dropdown Element Owner: Sonya Shuster */
