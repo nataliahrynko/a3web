@@ -11,7 +11,7 @@ Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
 
 body {
 background-color:#D7CEC7;
-font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+font-family: "Century Gothic", "CenturyGothic", "AppleGothic", "sans-serif";
 }
 
 .h1 {
@@ -288,9 +288,9 @@ src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
   margin-left: auto;
 }
 .row {
-  display: -ms-flexbox;
+  /*display: -ms-flexbox;*/
   display: flex;
-  -ms-flex-wrap: wrap;
+  /*-ms-flex-wrap: wrap;*/
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -374,7 +374,7 @@ src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp /*/
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  -webkit-user-select: none;
+  /*-webkit-user-select: none; */
 }
 
 /* Position the "next button" to the right */
